@@ -1,0 +1,14 @@
+button{
+
+    margin:5px ;
+}
+
+
+.relatorio-cliente{
+
+    width: 100%;
+    height: fit-content;
+
+    background-color: rgba(179, 179, 179, 0.568);
+    border-radius: 10px;
+}

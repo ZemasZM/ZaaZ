@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.all-content{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lilita One', cursive;
+}
+
+
+.IMG-Container{
+
+    height: 300px;
+}
+
+.All-container{
+    padding: 3em;
+    border-radius: 4px;
+    height: 500px;
+    border-bottom: solid 1px #ccc;
+    
+
+
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0,0,0,.2);
+}
+
+.Botao_Enviar{
+
+    border: none;
+    border: solid 1px black;
+}
+
+.Botao_Enviar:hover{
+
+
+    border: solid 1px white;
+    box-shadow: 5px 5px 2px black;
+    transition: all .2s ease-in-out ;
+}
+
+#Email_Input{
+
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px black;
+}
+
+#Senha_Input{
+
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px black;
+}
+
+#Email_Input:focus{
+
+    border: none;
+    box-shadow: none;
+
+}
+
+
+#Senha_Input:focus{
+
+    border: none;
+    box-shadow: none;
+}
+
+.Botao_Enviar:focus{
+    border: none;
+    box-shadow: none;
+
+    
+    border: solid 1px white;
+    box-shadow: 5px 5px 2px black;
+    transition: all 1s ease-in-out ;
+
+}
+
+

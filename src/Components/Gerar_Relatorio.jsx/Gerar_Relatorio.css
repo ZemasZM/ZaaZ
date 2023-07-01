@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+button{
+
+    margin:5px ;
+}
+
+
+.relatorio-cliente{
+
+    width: 100%;
+    height: fit-content;
+
+    background-color: rgba(179, 179, 179, 0.568);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.Nome_Cliente:focus{
+
+    box-shadow: none;
+    border-bottom: solid 1px black;    
+}
+
+.Nome_Cliente{
+
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px black;
+}
+
+#All-content{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    
+}
+
+.botoes_container{
+
+    width: 100%;
+    padding: 2em;
+}
+
+.botoes_container button{
+
+    margin: 1em;
+}
+
+.botao{
+
+    border-radius: 0;
+    background-color: #f7c22a;
+    border: none;
+    color: black;
+    box-shadow: 3px 3px black;
+    font-family: 'Lilita One', cursive;
+
+}
+
+.botao:hover{
+
+    background-color: #f7c22a;
+    color: black;
+    box-shadow: none;
+    transition: all ease-in-out .2s;
+}
+
+h1, h2, h3{
+
+    font-family: 'Lilita One', cursive;
+}
+
+p{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
