@@ -18,7 +18,7 @@ function Gerar_Relatorio(props) {
 
       alert('Tempo Limite logado atingido!')
       localStorage.setItem('Logado', 2)
-      Navigate('/Deslogado')
+      Navigate('/ZaaZ/Deslogado')
       location.reload()
     }
 
