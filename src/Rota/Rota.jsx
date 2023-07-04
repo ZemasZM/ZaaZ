@@ -8,7 +8,7 @@ function Rota(props) {
 
         <Router>
             <Routes>
-                <Route path='/ZaaZ/' element={<Login/>}/>
+                <Route path='/ZaaZ' element={<Login/>}/>
                 {localStorage.getItem('Logado') == 1? <Route path='/ZaaZ/Home' element={<Home/>}/> : '' }
                 {localStorage.getItem('Logado') == 2? <Route path='/ZaaZ/Deslogado' element={<NotFound/>}/>:''}
             </Routes>
