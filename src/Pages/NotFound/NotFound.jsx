@@ -9,7 +9,7 @@ function NotFound(props) {
         <div className='ConteudoTodo'>
             <h1>Deslogado!</h1>
             <p>Tempo limite atingido!</p>
-            <p>Volte para a pagina de Login! <Link to='/'>Tela de Login</Link> </p>
+            <p>Volte para a pagina de Login! <Link to='/ZaaZ'>Tela de Login</Link> </p>
         </div>
     );
 }
