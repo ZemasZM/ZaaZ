@@ -8,9 +8,9 @@ function Rota(props) {
 
         <Router>
             <Routes>
-                <Route path='/' element={<Login/>}/>
-                {localStorage.getItem('Logado') == 1? <Route path='/Home' element={<Home/>}/> : '' }
-                {localStorage.getItem('Logado') == 2? <Route path='/Deslogado' element={<NotFound/>}/>:''}
+                <Route path='/ZaaZ' element={<Login/>}/>
+                {localStorage.getItem('Logado') == 1? <Route path='/ZaaZ/Home' element={<Home/>}/> : '' }
+                {localStorage.getItem('Logado') == 2? <Route path='/ZaaZ/Deslogado' element={<NotFound/>}/>:''}
             </Routes>
         </Router>
     );
