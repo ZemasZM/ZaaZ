@@ -14,7 +14,7 @@ function Login() {
 
         if(Email == 'Zaaz' && Senha == 'Suporte'){
             localStorage.setItem('Logado', 1)
-            Navigate('/Home')
+            Navigate('/ZaaZ/Home')
             location.reload()
             
         }
